@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img.logo {
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 1rem; /* Space between the logo and the title */
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Section Styles */
+section {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.products,
+.cooks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Fridges Section */
+.products {
+  background-color: #e0f7fa;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.products h2 {
+  color: #00796b;
+}
+
+/* Cookers Section */
+.cooks {
+  background-color: #ffe0b2;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cooks h2 {
+  color: #f57c00;
+}
+
+article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: justify;
+}
+
+article img {
+  width: 100%;
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.amount {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+a.button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #e65b54;
+}
+
+/* Cart Styles */
+#cart {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+#cart li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
